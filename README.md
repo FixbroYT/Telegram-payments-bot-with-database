@@ -55,7 +55,7 @@ Since Stripe requires a **public URL**, use `ngrok` to expose your local server:
 ```bash
 ngrok http 8000
 ```
-Copy the **HTTPS URL** from ngrok and update `WEBHOOK_URL` in your `.env` file.
+Copy the **HTTPS URL** from ngrok and paste it to stripe webhook desination(`https://your-ngrok-link.ngrok-free.app/webhook`).
 
 ---
 
