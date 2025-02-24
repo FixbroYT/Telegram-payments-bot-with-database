@@ -41,13 +41,11 @@ Create a `.env` file in the root directory and add your credentials:
 BOT_TOKEN=your_telegram_bot_token
 STRIPE_SECRET_KEY=your_stripe_secret_key
 STRIPE_PUBLIC_KEY=your_stripe_public_key
-DATABASE_URL=sqlite+aiosqlite:///db.sqlite3
 WEBHOOK_URL=https://your-ngrok-url/webhook
 ```
 
 🔹 **BOT_TOKEN** – Get it from [@BotFather](https://t.me/BotFather)  
 🔹 **STRIPE_SECRET_KEY & STRIPE_PUBLIC_KEY** – Get them from your [Stripe Dashboard](https://dashboard.stripe.com/)  
-🔹 **DATABASE_URL** – Use SQLite (default) or configure PostgreSQL  
 🔹 **WEBHOOK_URL** – Will be set up with ngrok  
 
 ---
