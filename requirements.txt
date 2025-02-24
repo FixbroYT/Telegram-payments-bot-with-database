@@ -1,0 +1,9 @@
+python-dotenv
+aiogram
+fastapi
+stripe
+asyncio
+pyngrok
+uvicorn
+sqlalchemy
+aiosqlite
