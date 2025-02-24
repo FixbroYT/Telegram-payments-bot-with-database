@@ -28,7 +28,7 @@ This bot allows you to accept payments via **Stripe** and store user data in a d
 ### 1️⃣ Install Dependencies  
 First, clone the repository and install required packages:  
 ```bash
-git clone https://github.com/yourusername/Telegram-payments-bot-with-database.git
+git clone https://github.com/FixbroYT/Telegram-payments-bot-with-database.git
 cd Telegram-payments-bot-with-database
 pip install -r requirements.txt
 ```
