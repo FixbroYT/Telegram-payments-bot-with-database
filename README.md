@@ -50,16 +50,7 @@ WEBHOOK_SECRET=your_webhook_key
 
 ---
 
-### 3️⃣ Set Up Database  
-Run the following command to initialize your database:  
-```bash
-python -m app.database.models
-```
-This will create necessary tables in **SQLite/PostgreSQL**.
-
----
-
-### 4️⃣ Start Ngrok for Webhook  
+### 3️⃣ Start Ngrok for Webhook  
 Since Stripe requires a **public URL**, use `ngrok` to expose your local server:  
 ```bash
 ngrok http 8000
@@ -68,7 +59,7 @@ Copy the **HTTPS URL** from ngrok and update `WEBHOOK_URL` in your `.env` file.
 
 ---
 
-### 5️⃣ Run the Bot  
+### 4️⃣ Run the Bot  
 Start your bot with:  
 ```bash
 python run.py
@@ -96,7 +87,3 @@ The bot will now listen for payments and process transactions.
 ## 📩 Contact  
 If you have any issues or suggestions, feel free to open an **issue** or contact me directly. 😎  
 ```
-
----
-
-Этот `README.md` даёт полную инструкцию по установке, настройке и запуску твоего бота с базой данных и оплатами через Stripe. 🚀
