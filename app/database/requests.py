@@ -5,7 +5,7 @@ import asyncio
 
 async def add_user(tg_id):
     async with async_session() as session:
-        user = session.scalar(select(User).where(User.tg_id==tg_id))
+        user = await session.scalar(select(User).where(User.tg_id==tg_id))
 
         if not user:
             new_user = User(tg_id=tg_id)
